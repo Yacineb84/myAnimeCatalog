@@ -1,0 +1,64 @@
+GET http://localhost:5000/users
+
+###
+
+POST http://localhost:5000/registration
+Content-Type: application/json
+
+{
+    "prenom": "anis",
+    "email": "anis@gmail.com",
+    "password": "anis"
+}
+###
+
+PUT http://localhost:5000/registration
+Content-Type: application/json
+
+{
+    "email": "anis@gmail.com",
+    "password": "motdepasse",
+    "preferred": "Naruto"
+}
+//"Onepiece"
+
+###
+
+DELETE http://localhost:5000/registration
+Content-Type: application/json
+
+{
+    "email": "anis@gmail.com",
+    "password": "anis",
+    "preferred": "Onepiece"
+}
+
+###
+
+PUT http://localhost:5000/registration
+Content-Type: application/json
+
+{
+    "email": "anis@gmail.com",
+    "password": "motdepasse",
+    "lastEpisodes": {
+        "anime": "Onepiece",
+        "episodes": "episode 3"
+    }
+}
+
+###
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "anis@gmail.com",
+    "password": "motdepasse"
+}
+
+###
+
+GET http://localhost:5000/monespace
+
+###

@@ -1,0 +1,13 @@
+#homepageContainer {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#genresCont Button {
+    margin: 2vh;
+}
+
+#genresCont{
+    margin-bottom: 10vh;
+}

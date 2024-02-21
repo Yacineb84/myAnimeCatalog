@@ -1,0 +1,43 @@
+tr:hover {background-color: rgb(61, 148, 220);}
+th { background-color: lightyellow; }
+table, tr, td {
+  border-color:'black';
+  border-style:'solid';
+  border-width:'1px'
+}
+
+.divInteriore{
+  margin-left:3vh;
+  width:30vh;
+  padding:2vh;
+  justify-content: center;
+  align-self: center;
+}
+.divRiassunto{
+  margin-left:10vh;
+  width:80vh;
+  padding: 2vh;
+  justify-content: center;
+  align-self: center;
+  max-width: 200vh;
+}
+
+/*' style={{ marginLeft: "3vh", display: "flex", flexDirection: "row" }}*/
+
+#cambia{
+  display: flex;
+  flex-direction: row;
+  margin-left:4vh;
+  justify-content: center;
+  align-items:center;
+}
+
+@media (max-width: 1000px) {
+  #cambia {
+    flex-direction: column;
+  }
+
+}
+
+
+
